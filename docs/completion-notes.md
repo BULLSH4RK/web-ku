@@ -18,18 +18,19 @@
 
 ### GitHub Pages
 
-1. Pastikan file website sudah ada di folder `docs` pada branch yang akan dipublikasikan.
-2. Buka tab Settings > Pages di repository GitHub.
-3. Pada bagian Build and deployment, pilih Source: Deploy from a branch.
-4. Pilih branch utama, misalnya `main`, lalu pilih folder `docs`.
-5. Klik Save dan tunggu hingga status berubah menjadi "Your site is live at ...".
-6. Setelah selesai, buka URL yang diberikan untuk melihat website.
+1. Buat repository GitHub baru (atau gunakan repository yang sudah ada).
+2. Upload seluruh isi folder project ke repository tersebut.
+3. Buka tab Settings > Pages di repository GitHub.
+4. Pada bagian Build and deployment, pilih Source: Deploy from a branch.
+5. Pilih branch utama, misalnya `main`, lalu pilih folder `/root`.
+6. Klik Save dan tunggu hingga status berubah menjadi "Your site is live at ...".
+7. Setelah selesai, buka URL yang diberikan untuk melihat website.
 
 ### Catatan penting
 
 - Karena website ini adalah file statis, tidak ada build step yang diperlukan.
-- Pastikan `docs/index.html` ada di folder `docs`.
-- Jika Anda telah mengarahkan Pages sebelumnya ke folder lain, ubah pengaturan menjadi `docs`.
+- Pastikan file utama yang dipublikasikan adalah `index.html` di root repository atau folder yang dipilih.
+- Jika Anda ingin URL lebih rapi, gunakan nama repository yang singkat dan jelas.
 
 ## Catatan lanjutan
 
